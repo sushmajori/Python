@@ -1,4 +1,5 @@
-'''
+"""
+
 This program contain a class for storing the student information like, rollno, prn, name, dob, email, contact etc. And define getter and setter method,constructor
 and destructor.and menu driven program for performing following opration:
 1. Add new student
@@ -7,7 +8,8 @@ and destructor.and menu driven program for performing following opration:
 4. Update the student information
 5. List all the student
 Store the student objects in a list
-'''
+"""
+
 class Student:
     
     def __init__(self, name, roll_no, prn, dob, email, contact_no):
@@ -231,4 +233,8 @@ def main():
 if __name__ == '__main__':
     main()
     
-    
+
+"""
+Requirements: Python 3.8 /3.3
+"""
+
